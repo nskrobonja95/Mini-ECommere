@@ -76,12 +76,16 @@ This is an example of how to list things you need to use the software and how to
    git clone https://github.com/github_username/repo_name.git
    ```
 2. Build application
-   ```sh
+   ```dotnet
    dotnet build (<a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-build"></a>)
    ```
 3. Run application
-   ```js
+   ```dotnet
    dotnet run (<a="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-build"></a>)
+   ```
+4. Test application
+   ```dotnet
+   dotnet test (<a="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-test"></a>)
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -92,6 +96,10 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Use swagger to test endpoints. Most endpoints require authentication. Authenticate user by clicking 'Authorization' and entering the JWT token which can be retrieved from the <b>/authentication/login</b> endpoint.
+
+Credentials example:
+username: Customer1
+password: Customer1!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
